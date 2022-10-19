@@ -1,0 +1,398 @@
+/* Підключення шрифтів*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+   position: relative;
+}
+
+body{
+   background: url('../img/fans.jpeg.png') 0 0 repeat;
+}
+
+.football{
+   position: relative;
+   perspective: 700px;
+   perspective-origin: center;
+}
+
+.football:hover img:first-child{
+   transform: rotateX(10deg);
+   top: 0;
+   transition: 2s ease-in;
+}
+
+.football:hover img:nth-child(2){
+   left: 150px;
+   top: 350px;
+   transform: rotate(360deg);
+   transition: 7s ease;
+}
+
+.football:hover div:nth-child(3){
+   top: 320px;
+   transition: 4s ease-in;
+   transition-delay: 2s;
+}
+
+.football:hover div:nth-child(4){
+   left: 420px;
+   transition: 4s ease-in;
+}
+
+.football:hover div:nth-child(5){
+   top: 250px;
+   transition: 4s ease-in;
+}
+
+.football:hover div:nth-child(6){
+   top: 350px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(7){
+   top: 500px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(8){
+   left: 400px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(9){
+   left: 400px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(10){
+   left: 600px;
+   top: 200px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(11){
+   top: 600px;
+   left: 450px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(12){
+   left: 700px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(13){
+   left: 700px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(14){
+   right: 300px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(15){
+   right: 550px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(16){
+   right: 450px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(17){
+   right: 450px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(18){
+   right: 550px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(19){
+   right: 900px;
+   top: 100px;
+   transform: scale(1);
+   transition: 2s ease-in;
+}
+
+.football:hover div:nth-child(20){
+   right: 800px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(21){
+   right: 800px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(22){
+   right: 800px;
+   transition: 3s ease-in;
+}
+
+.football:hover div:nth-child(23){
+   right: 950px;
+   top: 250px;
+   transform: scale(1.5);
+   transition: 2s ease-in;
+}
+
+.football:hover div:nth-child(24){
+   right: 1000px;
+   top: 400px;
+   transition: 3s ease-in;
+}
+
+
+
+.football__field{
+   position: absolute;
+   top: 20px;
+   left: 130px;
+   max-width: max-content;
+   transform: rotateX(50deg);
+   transition: 2s ease-in;
+}
+
+
+.football__ball {
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   top: 100px;
+   left: 600px;
+   transition: 3s ease-in;
+}
+
+.red-player {
+   width: 30px;
+   height: 30px;
+   background-color: red;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 1.8;
+}
+
+.blue-player {
+   width: 30px;
+   height: 30px;
+   background-color: blue;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 1.8;
+}
+
+
+
+.football__red-one {
+   position: absolute;
+   left: 240px;
+   top: 250px;
+   transition: 2s ease-in;
+}
+.football__red-one::after{
+   content: "F..K!!!";
+   font-size: 25px;
+   color: white;
+   border: 1px solid white;
+   border-radius: 20px;
+   position: absolute;
+   bottom: 30px;
+   left: 0;
+}
+
+
+.football__red-two {
+   position: absolute;
+   left: 570px;
+   top: 150px;
+   transition: 2s ease-in;
+}
+.football__red-three {
+   position: absolute;
+   left: 350px;
+   top: 200px;
+   transition: 2s ease-in;
+}
+.football__red-four {
+   position: absolute;
+   left: 300px;
+   top: 400px;
+   transition: 2s ease-in;
+}
+.football__red-five {
+   position: absolute;
+   left: 300px;
+   top: 600px;
+   transition: 2s ease-in;
+}
+.football__red-six {
+   position: absolute;
+   left: 500px;
+   top: 250px;
+   transition: 2s ease-in;
+}
+.football__red-seven {
+   position: absolute;
+   left: 550px;
+   top: 400px;
+   transition: 2s ease-in;
+}
+.football__red-eight {
+   position: absolute;
+   left: 700px;
+   top: 150px;
+   transition: 2s ease-in;
+}
+.football__red-nine {
+   position: absolute;
+   left: 500px;
+   top: 650px;
+   transition: 2s ease-in;
+}
+.football__red-ten {
+   position: absolute;
+   left: 800px;
+   top: 250px;
+   transition: 2s ease-in;
+}
+.football__red-eleven {
+   position: absolute;
+   left: 750px;
+   top: 500px;
+   transition: 2s ease-in;
+}
+
+
+
+
+.football__blue-one {
+   position: absolute;
+   right: 240px;
+   top: 350px;
+   transition: 2s ease-in;
+}
+
+.football__blue-two {
+   position: absolute;
+   right: 440px;
+   top: 150px;
+   transition: 2s ease-in;
+}
+.football__blue-three {
+   position: absolute;
+   right: 350px;
+   top: 300px;
+   transition: 2s ease-in;
+}
+.football__blue-four {
+   position: absolute;
+   right: 350px;
+   top: 450px;
+   transition: 2s ease-in;
+}
+.football__blue-five {
+   position: absolute;
+   right: 440px;
+   top: 600px;
+   transition: 2s ease-in;
+}
+.football__blue-six {
+   position: absolute;
+   right: 700px;
+   top: 100px;
+   transition: 2s ease-in;
+   transform: scale(1.5);
+}
+.football__blue-seven {
+   position: absolute;
+   right: 700px;
+   top: 300px;
+   transition: 2s ease-in;
+}
+.football__blue-eight {
+   position: absolute;
+   right: 700px;
+   top: 450px;
+   transition: 2s ease-in;
+}
+.football__blue-nine {
+   position: absolute;
+   right: 700px;
+   top: 600px;
+   transition: 2s ease-in;
+}
+.football__blue-ten {
+   position: absolute;
+   right: 900px;
+   top: 200px;
+   transition: 2s ease-in;
+}
+.football__blue-eleven {
+   position: absolute;
+   right: 900px;
+   top: 500px;
+   transition: 2s ease-in;
+}
+
+
+.football:hover + div{
+   opacity: 1;
+   visibility: visible;
+   transform: translate(80%, 80%) scale(1.5) rotateY(360deg);
+   transition: 1s ease 6s;
+}
+
+.score {
+   width: 500px;
+   height: 200px;
+   position: absolute;
+   display: flex;
+   opacity: 0;
+   visibility: hidden;
+   transition: 1s ease 1s;
+   background: url('../img/confetti.png') 0 0 / cover no-repeat;
+}
+
+.score span{
+   font-size: 30px;
+}
+.score div:first-child span{
+   color: red;
+}
+.score div:nth-child(2) span{
+   color: blue;
+}
+
+
+.score__first {
+   width: 250px;
+   height: 200px;
+   background-color: rgba(0, 0, 0, 0.70);
+   color: #fff;
+   font-size: 140px;
+   border: 1px solid #fff;
+   text-align: center;
+   line-height: 1.4;
+   display: flex;
+   flex-direction: column;
+}
+.score__second {
+   width: 250px;
+   height: 200px;
+   background-color: rgba(0, 0, 0, 0.70);
+   color: #fff;
+   font-size: 140px;
+   border: 1px solid #fff;
+   text-align: center;
+   line-height: 1.4;
+   display: flex;
+   flex-direction: column;
+}
